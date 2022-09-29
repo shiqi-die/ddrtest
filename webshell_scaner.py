@@ -1,6 +1,6 @@
 #! coding=utf8
 import multiprocessing, Queue
-import os, sys
+import os, sys i 
 import time
 from multiprocessing import Process, Manager
 import re
