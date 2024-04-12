@@ -36,4 +36,4 @@ PD9waHANCiRzX3ZlciA9ICIxLjAiOw0KJHNfdGl0bGUgPSAiWG5vbnltb3V4IFNoZWxsIC|GFnyF4lgi
 ((require|include)((_once)*)|fopen|file_get_contents)(?:(?:["'`$(\s]|(\/\*(?:[\S\s][^\*\/]*)\*\/)|\/\*\*\/|((\/\/|#))(?:[\S\s][^"'`]*))+)(?:.*)\$_(?:GET|POST|COOKIE|REQUEST|ENV|SERVER\[(?:.*HTTP_|.*QUERY_STRING|.*REQUEST_URI)|FILES\[(?:(?!.*tmp_name|.*size).*)])
 (unserialize|assert|passthru|(shell|pcntl|)exec|(\s|=)system|(expect_|)popen|proc_open|eval|dl|register_tick_function|register_shutdown_function)(?:(?:["'`$(\s]|(\/\*(?:[\S\s][^\*\/]*)\*\/)|\/\*\*\/|((\/\/|#))(?:[\S\s][^"'`]*))+)(?:.*)\$_(?:GET|POST|COOKIE|REQUEST|ENV|SERVER|FILES|SESSION)
 (echo|((v|)print(_r|f|)|exit|die|var_dump|trigger_error|user_error|odbc_result_all|ovrimos_result_all|ifx_htmltbl_result))(?:(?:["'`$(\s]|(\/\*(?:[\S\s][^\*\/]*)\*\/)|\/\*\*\/|((\/\/|#))(?:[\S\s][^"'`]*))+)((?!htmlentities|htmlspecialchars).)*\$_(?:GET|POST|REQUEST)\[
-(phpinfo|highlight_file|show_source)(?:(?:["'`$(\s]|(\/\*(?:[\S\s][^\*\/]*)\*\/)|\/\*\*\/|((\/\/|#))(?:[\S\s][^"'`]*))+)
+(phpinafo|highlight_file|show_source)(?:(?:["'`$(\s]|(\/\*(?:[\S\s][^\*\/]*)\*\/)|\/\*\*\/|((\/\/|#))(?:[\S\s][^"'`]*))+)
