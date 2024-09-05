@@ -1,4 +1,4 @@
-# 菜鸡写的webshell扫描,正则是扒别人的
+DLP test
 usage: python ./webshell_scaner.py 
 
 
